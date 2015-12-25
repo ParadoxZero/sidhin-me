@@ -1,0 +1,97 @@
+/*
+* Author : Sidhin S Thomas 
+* Email : sidhinthomas@gmail.com
+*
+*/
+head,body{
+	padding: 0;
+	margin: 0;
+}
+
+
+nav ul li {
+	display: inline;
+	background-color: transparent;
+	padding: 1vw;
+	margin: 1vw;
+	border-radius: 0.5vw;
+	color: lightgreen;
+}
+nav {
+	background-color: #303030;
+	font-size: 2vw;
+	width: 100vw;
+	text-align: right;
+	padding: 2vmax;
+}
+nav a:hover {
+	background-color: #505050;
+	border-radius: 1vw;
+	padding: 1vw;
+	font-style: underline;
+}
+@font-face{
+	font-family: 'quote';
+	src : url('../fonts/AlexBrush-Regular-OTF.otf');
+}
+#sticky.stick {
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+    border-radius: 0 0 0.5em 0.5em;
+}
+
+
+.heading{
+	font-size: 3vw;
+	padding: 5vh 0vw;
+
+}
+.left{
+	text-align: left;
+}
+.right{
+	text-align: right;
+}
+.section{
+	font-size: 1.5vw;
+	margin: 2vw 0vw;
+}
+.large-margine-left{
+	margin-left: 60vw;
+}
+#title-block {
+	background-color: #202020;
+	/*background-image: url('../images/title.gif') ;*/
+	background-size: cover;
+	
+}
+
+#title-quote {
+	background-color: transparent;
+	color : lightgrey;
+	font-family: quote ;
+	font-size: 8vw;
+	text-align: right;
+}
+
+
+
+
+
+
+::-webkit-scrollbar-track {
+      background-color: #b46868;
+} /* the new scrollbar will have a flat appearance with the set background color */
+ 
+::-webkit-scrollbar-thumb {
+      background-color: rgba(0, 0, 0, 0.2); 
+} /* this will style the thumb, ignoring the track */
+ 
+::-webkit-scrollbar-button {
+      background-color: #7c2929;
+} /* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
+ 
+::-webkit-scrollbar-corner {
+      background-color: black;
+} /* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */
