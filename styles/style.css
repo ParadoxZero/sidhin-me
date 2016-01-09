@@ -19,16 +19,16 @@ nav ul li {
 }
 nav {
 	background-color: #303030;
-	font-size: 2vw;
+	font-size: 1.5vw;
 	width: 100vw;
 	text-align: right;
-	padding: 2vmax;
+	padding: 1.3vmax;
 }
 nav a:hover {
 	background-color: #505050;
 	border-radius: 1vw;
 	padding: 1vw;
-	font-style: underline;
+	font-style: bold;
 }
 @font-face{
 	font-family: 'quote';
@@ -44,7 +44,7 @@ nav a:hover {
 
 .heading{
 	font-size: 3vw;
-	padding: 5vh 0vw;
+	padding: 5vh 1vw 0 0 ;
 
 }
 .left{
@@ -75,23 +75,15 @@ nav a:hover {
 	text-align: right;
 }
 
+#first-block{
+	background-color: #435774;
+	color: white;
+}
+#first-block a {
+	color: white;
 
+}
 
-
-
-
-::-webkit-scrollbar-track {
-      background-color: #b46868;
-} /* the new scrollbar will have a flat appearance with the set background color */
- 
-::-webkit-scrollbar-thumb {
-      background-color: rgba(0, 0, 0, 0.2); 
-} /* this will style the thumb, ignoring the track */
- 
-::-webkit-scrollbar-button {
-      background-color: #7c2929;
-} /* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
- 
-::-webkit-scrollbar-corner {
-      background-color: black;
-} /* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */
+#second-block{
+	background-color: #2A3342;
+}
